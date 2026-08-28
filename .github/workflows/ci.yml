@@ -23,8 +23,7 @@ jobs:
       #   - libusb-1.0-0-dev      : hidapi linux-libusb backend (libusb-1.0 .pc)
       - name: Install system dependencies
         run: |
-          sudo apt-get update
-          sudo apt-get install -y pkg-config libdbus-1-dev libudev-dev libusb-1.0-0-dev
+          sudo apt-get update && sudo apt-get install -y libdbus-1-dev libudev-dev pkg-config
           echo "--- verifying system libs required by stellar-cli -sys crates ---"
           pkg-config --exists libudev && echo "libudev.pc found: $(pkg-config --modversion libudev)" || (echo "libudev.pc NOT FOUND" && exit 1)
           pkg-config --exists dbus-1 && echo "dbus-1.pc found: $(pkg-config --modversion dbus-1)" || (echo "dbus-1.pc NOT FOUND" && exit 1)
