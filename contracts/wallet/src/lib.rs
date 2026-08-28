@@ -1,4 +1,5 @@
 #![no_std]
+#![allow(clippy::too_many_arguments)]
 //! # Astroid Wallet Contract
 //!
 //! Programmable, stateful custody wallets for AI agents. The contract is the

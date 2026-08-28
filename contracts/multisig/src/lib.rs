@@ -1,4 +1,5 @@
 #![no_std]
+#![allow(clippy::too_many_arguments)]
 //! # Astroid MultiSig Contract
 //!
 //! Prevents unilateral spending by requiring **N of M** signer approvals before

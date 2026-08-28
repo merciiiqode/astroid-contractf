@@ -1,4 +1,5 @@
 #![no_std]
+#![allow(clippy::too_many_arguments)]
 //! # Astroid Registry Contract
 //!
 //! The backbone of the protocol and its single source of truth. The registry

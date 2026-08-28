@@ -1,4 +1,5 @@
 #![no_std]
+#![allow(clippy::too_many_arguments)]
 //! # astroid-interfaces
 //!
 //! Shared interface traits for the Astroid protocol. Each trait is annotated

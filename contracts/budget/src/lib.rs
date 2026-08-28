@@ -1,4 +1,5 @@
 #![no_std]
+#![allow(clippy::too_many_arguments)]
 //! # Astroid Budget Contract
 //!
 //! Enforces spending limits (PRD Doc 7 §Budget). Every spend calls
