@@ -8,7 +8,7 @@
 //! Modules:
 //! - [`errors`]     — the canonical `#[contracterror]` code table.
 //! - [`events`]     — helpers that publish the standardized cross-cutting events
-//!                    the Astroid backend subscribes to.
+//!   the Astroid backend subscribes to.
 //! - [`types`]      — `#[contracttype]` values reused by multiple contracts.
 //! - [`math`]       — checked `i128` arithmetic (never wraps, returns errors).
 //! - [`validation`] — small guard helpers (positive amounts, time windows, ...).

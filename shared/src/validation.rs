@@ -25,7 +25,7 @@ pub fn require_non_negative_amount(amount: i128) -> Result<(), Error> {
 
 /// Require a non-empty string (names, ids, org slugs).
 pub fn require_non_empty(value: &String) -> Result<(), Error> {
-    if value.len() == 0 {
+    if value.is_empty() {
         return Err(Error::InvalidInput);
     }
     Ok(())

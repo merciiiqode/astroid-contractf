@@ -1,4 +1,5 @@
 #![no_std]
+#![allow(clippy::too_many_arguments)]
 //! # Astroid Policy Contract
 //!
 //! Verifies that a proposed transfer complies with the ACTIVE policy

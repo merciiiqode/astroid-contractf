@@ -1,4 +1,5 @@
 #![no_std]
+#![allow(clippy::too_many_arguments)]
 //! # Astroid Treasury Contract
 //!
 //! Custodies organizational funds and enforces governance on every outbound
